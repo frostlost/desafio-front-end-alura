@@ -1,29 +1,28 @@
-header {
-    background: darkgray;
+.header {
+    background: url("../img/destaque.jpeg") no-repeat;
+    background-size: cover;
+    padding-top: 32px;
 }
 
-.nav-list {
-    display: flex;
-    justify-content: center;
-    padding: 20px 0;
+.header .main-menu {
+    text-align: center;
 }
 
-.nav-list .nav-item:first-child {
-    margin-right: 10px;
-}
-
-.nav-link {
-    background-color: rgba(255,255,255,0.2);
-    padding: 15px;
-    border-radius: 3px;
-    color: #fff;
-    text-transform: uppercase;
-    text-decoration: none;
+.header .main-menu .menu-item {
     display: inline-block;
-    transition: all .5s ease;
+    margin: 0 2px 32px 0;
 }
 
-.nav-link:hover,
-.nav-link:active {
+.header .main-menu .menu-item a {
+    color: #fff;
+    padding: 15px;
+    background: rgba(0,0,0,0.1);
+    border-radius: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color .5s;
+}
+
+.header .main-menu .menu-item a:hover {
     background-color: #48a3a6;
 }
