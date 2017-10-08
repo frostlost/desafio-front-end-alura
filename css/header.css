@@ -10,7 +10,7 @@
 
 .header .main-menu .menu-item {
     display: inline-block;
-    margin: 0 2px 32px 0;
+    margin: 0 2px;
 }
 
 .header .main-menu .menu-item a {
@@ -20,9 +20,45 @@
     border-radius: 4px;
     text-decoration: none;
     text-transform: uppercase;
-    transition: background-color .5s;
+    transition: var(--bg-transition);
 }
 
 .header .main-menu .menu-item a:hover {
-    background-color: #48a3a6;
+    background-color: var(--primary-green);
+}
+
+.cta-panel {
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: var(--primary-shaddow);
+}
+
+.cta-panel h1 {
+    color: #fff;
+    font-size: 2.625rem;
+    margin-top: .761em;
+}
+
+.cta-panel h2 {
+    color: #76FF40;
+    font-size: 1.875rem;
+    margin-top: .166em;
+}
+
+.cta-panel .btn-wrapper {
+    padding: 1.25em 0 1.875em;
+}
+
+@media (min-width: 768px) {
+
+
+
+    .cta-panel h1 {
+        font-size: 3.625rem;
+    }
+
+    .cta-panel h2 {
+        font-size: 2.875rem;
+    }
+
 }
