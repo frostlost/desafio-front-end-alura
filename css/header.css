@@ -27,37 +27,38 @@
     background-color: var(--primary-green);
 }
 
-.cta-panel {
+.header .jumbotron {
     text-align: center;
     text-transform: uppercase;
+}
+
+.header .jumbotron .jumbotron-main {
     text-shadow: var(--primary-shaddow);
 }
 
-.cta-panel h1 {
+.header .jumbotron .title {
     color: #fff;
     font-size: 2.625rem;
     margin-top: .761em;
 }
 
-.cta-panel h2 {
+.header .jumbotron .subtitle {
     color: #76FF40;
     font-size: 1.875rem;
     margin-top: .166em;
 }
 
-.cta-panel .btn-wrapper {
+.header .jumbotron .panel-subscribe {
     padding: 1.25em 0 1.875em;
 }
 
 @media (min-width: 768px) {
 
-
-
-    .cta-panel h1 {
+    .header .jumbotron .title {
         font-size: 3.625rem;
     }
 
-    .cta-panel h2 {
+    .header .jumbotron .subtitle {
         font-size: 2.875rem;
     }
 
