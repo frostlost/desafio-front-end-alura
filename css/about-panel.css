@@ -1,0 +1,43 @@
+.panel-about {
+    text-align: center;
+}
+
+.panel-about .container {
+    padding: 1rem 0;
+}
+
+.panel-about .title,
+.panel-about .subtitle {
+    line-height: 1.2;
+}
+
+.panel-about .title {
+    font-size: 1.75rem;
+}
+
+.panel-about .subtitle {
+    font-size: 1.3rem;
+    margin: 15px 0;
+}
+
+.panel-about p {
+    font-size: 1.125em;
+    line-height: 1.5;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+
+    .panel-about p {
+        max-width: 80%;
+    }
+
+}
+
+@media (min-width: 1100px) {
+
+    .panel-about p {
+        max-width: 50%;
+    }
+
+}

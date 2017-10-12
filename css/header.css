@@ -1,7 +1,10 @@
 .header {
     background: url("../img/destaque.jpeg") no-repeat;
     background-size: cover;
-    padding-top: 32px;
+}
+
+.header .container {
+    padding: 3rem 0 2.5rem;
 }
 
 .header .main-menu {
@@ -49,7 +52,7 @@
 }
 
 .header .jumbotron .panel-subscribe {
-    padding: 1.25em 0 1.875em;
+    padding-top: 1.25em;
 }
 
 @media (min-width: 768px) {
