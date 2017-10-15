@@ -1,0 +1,23 @@
+.panel-speakers {
+    background-color: #F17D50;
+    text-align: center;
+}
+
+.panel-speakers-header {
+    color: #fff;
+}
+
+.speaker-img {
+    border-radius: 50%;
+}
+
+.speaker-description {
+    font-size: 18px;
+    line-height: 1.2;
+    margin-top: 15px;
+}
+
+.speaker-description .speaker-position {
+    font-weight: 900;
+    margin: 10px 0;
+}

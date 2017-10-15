@@ -2,24 +2,6 @@
     text-align: center;
 }
 
-.panel-about .container {
-    padding: 1rem 0;
-}
-
-.panel-about .title,
-.panel-about .subtitle {
-    line-height: 1.2;
-}
-
-.panel-about .title {
-    font-size: 1.75rem;
-}
-
-.panel-about .subtitle {
-    font-size: 1.3rem;
-    margin: 15px 0;
-}
-
 .panel-about p {
     font-size: 1.125em;
     line-height: 1.5;

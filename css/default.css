@@ -1,16 +1,37 @@
+/*-------Global-------*/
+
 * {
     box-sizing: border-box;
 }
 
+/*-------Titles-------*/
+.section-title {
+    font-size: 1.75rem;
+    line-height: 1.2;
+}
+
+/*-------Subtitles-------*/
+.section-subtitle {
+    font-size: 1.3rem;
+    line-height: 2.8;
+}
+
+/*-------Containers-------*/
 .container {
     width: 90%;
     margin: 0 auto;
 }
 
+.container-section {
+    padding: 1.5rem 0;
+}
+
+/*-------Links-------*/
 a {
     text-decoration: none;
 }
 
+/*-------Buttons-------*/
 .btn {
     text-transform: uppercase;
     display: inline-block;
