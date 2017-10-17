@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+/*-------Img-------*/
+img {
+    max-width: 100%;
+}
+
 /*-------Titles-------*/
 .section-title {
     font-size: 1.75rem;
@@ -13,7 +18,8 @@
 /*-------Subtitles-------*/
 .section-subtitle {
     font-size: 1.3rem;
-    line-height: 2.8;
+    line-height: 1.2;
+    margin: 10px 0 20px;
 }
 
 /*-------Containers-------*/
