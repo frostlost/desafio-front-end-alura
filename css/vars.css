@@ -2,5 +2,6 @@
     --primary-green: #48a3a6;
     --primary-orange: #F17D50;
     --primary-shaddow: 2px 2px 10px rgba(0,0,0,0.5);
+    --green-box-shadow: 1px 1px 10px #48a3a6;
     --bg-transition: background-color .5s;
 }
