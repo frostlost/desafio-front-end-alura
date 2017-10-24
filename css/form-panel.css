@@ -1,0 +1,19 @@
+.form-panel-header {
+    text-transform: uppercase;
+}
+
+.form-panel .section-title {
+    color: var(--primary-orange);
+}
+
+.form button {
+    display: block;
+    margin: 20px auto 0;
+    font-weight: 600;
+    letter-spacing: .03em;
+    border: none;
+}
+
+.form button:hover {
+    cursor: pointer;
+}
