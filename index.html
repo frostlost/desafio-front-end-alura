@@ -18,13 +18,16 @@
 <body>
 
     <!-- header -->
-    <header class="header">
+    <header id="header" class="header">
         <div class="container">
 
             <nav class="main-menu">
                 <ul>
-                    <li class="menu-item"><a href="#">Sobre</a></li>
-                    <li class="menu-item"><a href="#">Palestrantes</a></li>
+                    <li class="menu-item">
+                        <a data-js="botao-sobre" href="#panel-about">Sobre</a></li>
+                    <li class="menu-item">
+                        <a data-js="botao-palestrantes" href="#panel-speakers">Palestrantes</a>
+                    </li>
                 </ul>
             </nav>
 
@@ -35,7 +38,7 @@
                 </section>
 
                 <section class="panel-subscribe">
-                    <a href="#" class="btn btn-large">Inscreva-se</a>
+                    <a data-js="botao-subscribe" href="#panel-form" class="btn btn-large">Inscreva-se</a>
                 </section>
             </div>
 
@@ -44,7 +47,7 @@
     <!-- /header -->
 
     <!-- panel-about -->
-    <section class="panel-about">
+    <section id="panel-about" class="panel-about">
         <div class="container container-section">
             <header class="panel-about-header">
                 <h2 class="section-title">Muito Conteúdo: do frontend ao backend</h2>
@@ -58,7 +61,7 @@
     <!-- /panel-about -->
 
     <!-- speakers -->
-    <section class="panel-speakers">
+    <section id="panel-speakers" class="panel-speakers">
         <div class="container container-section">
             <header class="panel-speakers-header">
                 <h2 class="section-title">Palestrantes</h2>
@@ -152,16 +155,16 @@
     <!-- /speakers -->
 
     <!-- form -->
-    <section class="form-panel">
+    <section id="panel-form" class="panel-form">
         <div class="container container-section">
-            <header class="form-panel-header">
+            <header class="panel-form-header">
                 <h2 class="section-title">Seus Dados</h2>
             </header>
 
             <form class="form">
                 <div class="field">
                     <label for="get-name">Nome</label>
-                    <input class="input" id="get-name" type="text" autofocus>
+                    <input class="input" id="get-name" type="text">
                 </div>
 
                 <div class="field">
@@ -174,6 +177,11 @@
         </div>
     </section>
     <!-- /form -->
+
+    <!-- scripts -->
+    <script src="js/jquery.js"></script>
+    <script src="js/scroll-animation.js"></script>
+    <!-- /scripts -->
 
 </body>
 
